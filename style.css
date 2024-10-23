@@ -15,15 +15,18 @@
 
 body {
     background-color: var(--grayish-blue);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 article {
     width: 320px;
     background-color: var(--light-gray);
     border-radius: 5px;
-    display: block;
-    margin: 1rem auto
+
 }
 
 .section-1 {

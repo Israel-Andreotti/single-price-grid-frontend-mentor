@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--grayish-blue);
+    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 article {
     width: 320px;
-    background-color: var(--light-gray);
+    background-color: white;
     border-radius: 5px;
 
 }
@@ -109,4 +109,35 @@ article {
 
 .section-3 div p {
     margin-bottom: .2rem;
+}
+
+@media (width >= 1440px) {
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        height: 460px;
+        width: 680px;
+    }
+
+    .section-1 {
+        grid-column: span 2;
+    }
+
+    .section-1 h1 {
+        font-size: 1.9rem;
+    }
+
+    .section-1 h2 {
+        font-size: 1.2rem;
+    }
+
+    .section-1 p {
+        font-size: 1rem;
+        margin-right: 4rem;
+    }
+
+    .section-2, .section-3 {
+        padding: 2.2rem;
+    }
 }

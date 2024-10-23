@@ -1,0 +1,109 @@
+:root {
+    --cyan:hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Karla", sans-serif;
+}
+
+body {
+    background-color: var(--grayish-blue);
+    
+}
+
+article {
+    width: 320px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    display: block;
+    margin: 1rem auto
+}
+
+.section-1 {
+    padding: 1.5rem;
+}
+
+.section-1 h1 {
+    color: var(--cyan);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.section-1 h2 {
+    color: var(--bright-yellow);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-1 p {
+    color: var(--grayish-blue);
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.section-2 {
+    background-color: var(--cyan);
+    padding: 1.5rem;
+}
+
+.section-2 h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.price {
+    color: rgb(100, 100, 100);
+}
+
+.price span {
+    font-size: 2rem;
+    color: white!important;
+    margin-right: .5rem;
+    opacity: 100%;
+}
+
+.section-2 p {
+    margin-top: .6rem;
+    color: var(--light-gray);
+}
+
+.section-2 button {
+    background-color: var(--bright-yellow);
+    margin-top: 1.4rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 1px 5px 10px rgb(128, 128, 128);
+}
+
+.section-3 {
+    background-color: var(--cyan);
+    opacity: 80%;
+    padding: 1.5rem 2rem;
+}
+
+.section-3 h4 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.section-3 div {
+    margin-top: 1rem;
+    color: var(--light-gray);
+    opacity: 70%;
+}
+
+.section-3 div p {
+    margin-bottom: .2rem;
+}
